@@ -1,0 +1,49 @@
+.background-container{
+    height: 100vh;
+    background-image: url(../Photos/photo\ -\ laptop.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    opacity: 0.5;
+}
+.project-items--flex{
+    margin-top: 3rem;
+    margin-right: 30rem;
+    width: 70vw;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-items--flex > .project_card--flex{
+    margin: 1rem;
+}
+.project_card--flex{
+    width: 16rem;
+}
+
+.project-overview{
+    position: fixed;
+    right: 0;
+    bottom: 4px;
+    margin: 2rem;
+    background: transparent;
+}
+     .about-info{
+        text-align: center;
+        margin: 0px auto;
+        display: center;
+      }
+
+      form{
+          color: white;
+            width: 375px;
+      }
+
+      article{
+          text-align: center;
+          margin-top: 3rem;
+          color: white;
+      }
+  
+     
