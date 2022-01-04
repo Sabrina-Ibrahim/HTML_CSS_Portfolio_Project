@@ -1,49 +1,166 @@
-.background-container{
-    height: 100vh;
-    background-image: url(../Photos/photo\ -\ laptop.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    position: relative;
-    opacity: 0.5;
-}
-.project-items--flex{
-    margin-top: 3rem;
-    margin-right: 30rem;
-    width: 70vw;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-.project-items--flex > .project_card--flex{
-    margin: 1rem;
-}
-.project_card--flex{
-    width: 16rem;
+.background-container {
+  height: 100vh;
+  background-image: url(../Photos/photo\ -\ laptop.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  opacity: 1;
 }
 
-.project-overview{
-    position: fixed;
-    right: 0;
-    bottom: 4px;
-    margin: 2rem;
-    background: transparent;
+.home-info {
+  text-align: center;
+  margin-top: 3rem;
+  color: rgba(255, 255, 255, 0.918);
+  padding-top: 11rem;
 }
-     .about-info{
-        text-align: center;
-        margin: 0px auto;
-        display: center;
-      }
 
-      form{
-          color: white;
-            width: 375px;
-      }
+.middle-two {
+  padding-top: 19rem;
+}
 
-      article{
-          text-align: center;
-          margin-top: 3rem;
-          color: white;
-      }
-  
-     
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0.1em;
+  color: white;
+  padding-top: 0em;
+}
+
+input,
+textarea {
+  width: 26%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background: #000000d9;
+  color: white;
+}
+
+form {
+  padding-left: 563px;
+  padding-top: 4em;
+  width: 210%;
+}
+.btn-outline-warning {
+  color: white;
+  border-color: #f39316;
+}
+
+.contact-me {
+  background: transparent;
+  text-align: center;
+  width: 49%;
+  color: white;
+}
+
+img {
+  width: 250px;
+  margin-top: 3em;
+  border-radius: 110px;
+  float: left;
+  padding-left: 1em;
+  padding-block: 1em;
+  margin-block: 5em;
+  margin-left: 60px;
+}
+
+.about-card {
+  margin-top: 3em;
+  color: black;
+  top: 139px;
+  left: 23px;
+  border-right-width: 52px;
+}
+.card-header:first-child {
+  margin-right: 0em;
+}
+
+.blockquote > :last-child {
+  text-align: center;
+  margin-bottom: 17px;
+  margin-block: 1em;
+}
+
+p style {
+  border-left-width: 0px;
+  margin-left: 10px;
+  margin-top: 316px;
+  padding-left: 37px;
+  margin-right: 38px;
+  margin-bottom: 20px;
+}
+
+/* .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  left: 286px;
+  border-right-width: 0px;
+  margin-top: 21px;
+} */
+
+/* .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  color: black;
+  font-size: 34px;
+  font-style: italic;
+} */
+
+.project-items--flex {
+  margin-top: 3rem;
+  margin-right: 30rem;
+  width: 70vw;
+  /* padding: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-items--flex > .project_card--flex {
+  margin: 1rem;
+}
+.project_card--flex {
+  width: 16rem;
+}
+
+.card-img-top {
+  display: none;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.project-overview {
+  position: fixed;
+  right: 0;
+  bottom: 4px;
+  margin: 2rem;
+  background: transparent;
+}
+
+/* .about-info {
+  text-align: center;
+  margin: 0px auto;
+  display: center;
+}  */
+
+/* contact-me card {
+  font-size: -632px;
+  color: white;
+} */
