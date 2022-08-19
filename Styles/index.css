@@ -1,6 +1,7 @@
 .background-container {
   height: 100vh;
-  background-image: url(../Photos/photo\ -\ laptop.jpeg);
+  /* background-image: url(../Photos/photo\ -\ laptop.jpeg); */
+  background-image: url(../Photos/photo\ -\ laptop\ copy.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -12,7 +13,7 @@
   text-align: center;
   margin-top: 3rem;
   color: rgba(255, 255, 255, 0.918);
-  padding-top: 11rem;
+  padding-top: 7rem;
 }
 
 .middle-two {
@@ -29,6 +30,8 @@ label {
   margin-bottom: 0.1em;
   color: white;
   padding-top: 0em;
+  font-family: monospace;
+  font-size: 20px;
 }
 
 input,
@@ -37,10 +40,10 @@ textarea {
   /* padding: 0.8em; */
   margin-bottom: 1em;
   border-radius: .3em;
-  border: 1px solid black;
+  border: 1px solid #071316ad;
   border-color: #ffbc57;
   box-sizing: border-box;
-  background: #000000d9;
+  background: #071316ad;
   color: white;
 }
 
@@ -52,6 +55,8 @@ form {
 .btn-outline-warning {
   color: white;
   border-color: #f39316;
+  font-family: monospace;
+  background: #07131669;
 }
 
 .contact-me {
@@ -64,7 +69,7 @@ form {
 img {
   width: 250px;
   margin-top: 3em;
-  border-radius: 110px;
+  /* border-radius: 110px; */
   float: left;
   padding-left: 1em;
   padding-block: 1em;
@@ -165,3 +170,18 @@ p style {
   font-size: -632px;
   color: white;
 } */
+
+.contact-bio {
+  color: white;
+  padding: 17px;
+  position: absolute;
+  left: 60px;
+  top: 92px;
+  font-size: 21px;
+  background: #071316ad;
+  width: 35rem;
+  border-radius: 27px;
+  font-family: monospace;
+  text-align: center;
+}
+
